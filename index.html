@@ -1,24 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Restau Delux - Restaurant</title>
     <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
     <!-- header start -->
     <header class="header">
         <div class="container">
-            <div class="row justify-content-between" >
+            <div class="row justify-content-between">
                 <div class="logo">
                     <a href="#"><img src="#" alt="logo"></a>
                 </div>
-                <button type="button" class="nav-toggler"></button>
+                <button type="button" class="nav-toggler">
+                    <span></span>
+                </button>
+                <nav class="nav">
+                    <ul>
+                        <li class="nav-item"><a href="#home">home</a></li>
+                        <li class="nav-item"><a href="#about">about</a></li>
+                        <li class="nav-item"><a href="#our-menu">our menu</a></li>
+                        <li class="nav-item"><a href="#testimonials">testimonials</a></li>
+                        <li class="nav-item"><a href="#team">team</a></li>
+                        <li class="nav-item"><a href="#contact">contact us</a></li>
+                    </ul>
+                </nav>
             </div>
         </div>
     </header>
-     <!-- header end -->
-  <script src="./script.js"></script>  
+    <!-- header end -->
+
+    <!-- home section start -->
+    <section class="home-section" id="home">
+        <div class="home-bg"></div>
+        <div class="container">
+            <div class="row min-vh-100 align-items-center">
+                <div class="home-text">
+                    <h1>Restua Delux Restaurant</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua</p>
+                    <a href="#our-menu" class="btn btn-default">our menu</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- home section end -->
+
+    <!-- about section start -->
+    <section class="about-section sec-padding" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h2 data-title="our story">about us</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="about-text">
+                    <h3>Welcome To Restua Delux Restaurant</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua
+                    </p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua
+                    </p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua
+                    </p>
+                    <a href="#our-menu" class="btn btn-default">check our menu</a>
+                </div>
+                <div class="about-img">
+                    <div class="img-box">
+                        <h3>10+ years experience</h3>
+                        <img src="" alt="about-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- about section end -->
+
+    <script src="./script.js"></script>
 </body>
+
 </html>
