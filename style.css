@@ -730,8 +730,16 @@ footer
         margin-top: 40px;
     }
 
+    .about-text h3{
+        font-size: 24px;
+    }
+
     .footer-item{
         width: 100%;
+    }
+    
+    .footer-item.test-item:not(:last-child){
+        margin-bottom: 30px;
     }
 
     .test-item{
