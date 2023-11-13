@@ -704,6 +704,12 @@ footer
     .test-item{
        width: calc(50% - 30px); 
     }
+    .test-item{
+        width: 50%;        
+     }
+     .test-item:not(:last-child){
+        margin-bottom: 75px; 
+     }
 }
 @media(max-width:767px){
     .home-text h1{
@@ -722,5 +728,18 @@ footer
 
     .about-img{
         margin-top: 40px;
+    }
+
+    .footer-item{
+        width: 100%;
+    }
+
+    .test-item{
+        width: calc(100% - 30px); 
+     }
+}
+@media(max-width:575px){
+    .team-item{
+        width: 100px;
     }
 }
